@@ -7,8 +7,15 @@
     "test": "echo \"Error: no test specified\"",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+    "homepage": "https://D7E-876.github.io/Comp2156",
+
+  
+   "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/D7E-876/Comp2156.git"
